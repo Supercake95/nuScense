@@ -7,7 +7,7 @@
   
   i.e. you should overwrite the default nuscenes.py or you can make a copy.
   
-  Then you can plot Radar Pointcloud to the image where is able to draw colors according to dimensions, besides, it's original data, no mask:
+  Then you can plot Radar Pointcloud to the image where is able to draw colors according to dimensions, not it filters out the ones on the outside of the picture:
 
     from nuscenes.nuscenes import NuScenes
     nusc = NuScenes(version='v1.0-trainval', dataroot='/gruntdata3', verbose=True)
