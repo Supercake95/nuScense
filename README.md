@@ -7,7 +7,7 @@
   
   i.e. you should overwrite the default nuscenes.py or you can make a copy.
   
-  so you can plot Radar Pointcloud to the image where is able to draw colors according to dimensions:
+  Then you can plot Radar Pointcloud to the image where is able to draw colors according to dimensions:
 
     from nuscenes.nuscenes import NuScenes
     nusc = NuScenes(version='v1.0-trainval', dataroot='/gruntdata3', verbose=True)
