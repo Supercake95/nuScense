@@ -14,4 +14,4 @@
 
     my_sample = nusc.sample[19691]
     for i in range(0,18): 
-      nusc.render_pointcloud_in_image(2,my_sample['token'], pointsensor_channel='RADAR_FRONT_RIGHT',camera_channel= 'CAM_FRONT_RIGHT')
+      nusc.render_pointcloud_in_image(i,my_sample['token'], pointsensor_channel='RADAR_FRONT_RIGHT',camera_channel= 'CAM_FRONT_RIGHT')
