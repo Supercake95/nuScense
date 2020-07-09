@@ -1,10 +1,11 @@
 # nuScense
   modified plt.
  
-  download nuscenes and place it to:
+  download nuscenes.py and place it to:
 
   /home/usrname/anaconda3/envs/yourenvname/lib/python3.6/site-packages/nuscenes 
-
+  
+  i.e. you should overwrite the default nuscenes.py or you can make a copy.
 so you can plot Radar Pointcloud to the image where is able to draw colors according to dimensions:
 
     from nuscenes.nuscenes import NuScenes
